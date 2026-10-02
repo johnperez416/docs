@@ -32,7 +32,6 @@ jobs:
         # Add new matrix suites to branch protection required checks too.
         name:
           # Lists every src directory. Commented-out entries have no suite-specific tests.
-          # - ai-tools
           # - app
           - archives
           - article-api
@@ -60,7 +59,6 @@ jobs:
           - landings
           - languages
           - links
-          # - metrics
           - observability
           # - pages
           - products
